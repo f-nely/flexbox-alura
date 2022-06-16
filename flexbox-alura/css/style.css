@@ -1,0 +1,287 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalho-principal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.cabecalho-principal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.cabecalho-principal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cabecalho-principal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid #9799A6;
+}
+
+.conteudo-principal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.conteudo-principal-cursos-link {
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.conteudo-principal-cursos-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.conteudo-principal-cursos-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.conteudo-principal-cursos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.conteudo-principal-cursos-link:nth-child(even) a:before {
+	background: url(../img/background1.svg) no-repeat;	
+}
+
+.conteudo-principal-cursos-link:nth-child(odd) a:before {
+	background: url(../img/background2.svg) no-repeat;
+}
+
+
+.rodape-principal {
+	background-color: #324C64;
+	padding-top: 20px;
+}
+
+.rodape-principal .subtitulo {
+	color: #FFF;
+}
+
+.rodape-principal-navmap-link {
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.rodape-principal-navmap-link {
+	font-size: .9em;
+}
+
+.navmap-list-title {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+.navmap-list-title + .rodape-principal-navmap-link {
+	margin-top: 0;
+}
+
+.navmap-list-title-banco { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
+.navmap-list-title-framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
+.navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
+.navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
+
+.rodape-principal-patrocinadores {
+	margin-top: 30px;
+	background: #F2F5F7;
+	padding: 20px 0;
+}
+
+.rodape-principal-contato-form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodape-principal-contato-form label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodape-principal-contato-form-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodape-principal-contato-form-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.rodape-principal-contato-form-submit,
+.rodape-principal-contato-form-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.video-sobre {
+	background-color: #5E9EDC;
+	padding: 25px 0;
+
+}
+
+.video {
+	max-width: 100%;
+}
+
+.video-sobre .container {
+	color: #FFF;
+}
+
+.sobre-title {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.sobre {
+	font-size: 1.3em;
+	line-height: 2;
+}
+
+.sobre-button {
+	border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+}
+
+.rodape-principal-contato-form-legend {
+	margin-bottom: 10px;
+}
+
+@media(min-width: 769px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.cabecalho-principal-nav-link {
+		border-radius: 5px;
+		border: 1px solid #9799A6;
+	}
+
+	.cabecalho-principal-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}
+
+	.cabecalho-principal-titulo {
+		margin: 0;
+	}
+
+	.cabecalho-principal-nav {
+		width: auto;
+	}
+
+	.cabecalho-principal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+	.rodape-principal-contato-form {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.conteudo-principal-cursos-link:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.conteudo-principal-cursos-link:nth-child(3n+1) {
+		margin-left: 0;
+	}
+
+}
+
+@media(min-width: 1000px) {
+	.conteudo-principal-cursos-link {
+		margin: 1.333%;
+	}
+
+	.conteudo-principal-cursos-link:nth-child(3n) {
+		margin-right: 1.33%;
+	}
+
+	.conteudo-principal-cursos-link:nth-child(3n+1) {
+		margin-left: 1.333%;
+	}
+
+	.conteudo-principal-cursos-link:nth-child(4n) {
+		margin-right: 0;
+	}
+
+	.conteudo-principal-cursos-link:nth-child(4n+1) {
+		margin-left: 0;
+	}
+
+	.sobre {
+		margin-left: 1.5em;
+	}
+
+}
+
+
