@@ -1,0 +1,10 @@
+/* cabeçalho */
+.cabecalho-principal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-principal .cabecalho-principal-nav {
+    display: flex;
+}
