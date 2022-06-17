@@ -34,7 +34,8 @@
 /* course map */
 .rodape-principal-navmap-list {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
     height: 252px;
 }
