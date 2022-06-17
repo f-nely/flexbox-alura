@@ -30,3 +30,11 @@
 .rodape-principal-contato-form-fieldset {
     display: flex;
 }
+
+/* course map */
+.rodape-principal-navmap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 252px;
+}
