@@ -99,6 +99,10 @@
     .rodape-principal-contato-form-fieldset {
         justify-content: center;
     }
+
+    .cabecalho-principal-nav-link-app {
+        order: -1;
+    }
 }
 
 @media (max-width: 1200px) {
