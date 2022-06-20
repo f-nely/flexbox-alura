@@ -58,6 +58,26 @@
     margin-left: 0;
 }
 
+/* vantagens e o vídeo */
+.video-sobre .container {
+    display: flex;
+}
+
+.sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.video {
+    flex-grow: 1;
+}
+
+.sobre-list {
+    flex-grow: 1;
+}
+
 /* responsividade */
 @media (max-width: 768px ) {
     .cabecalho-principal-nav {
@@ -103,19 +123,4 @@
     .cabecalho-principal-nav-link-app {
         order: -1;
     }
-}
-
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 991px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 600px) {
-}
-
-@media (max-width: 480px) {
 }
